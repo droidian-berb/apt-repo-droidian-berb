@@ -1,0 +1,1 @@
+deb [arch=all,arm64,amd64 signed-by=/usr/share/keyrings/droidian-berb-apt.gpg] https://droidian-berb.github.io/apt-repo-droidian-berb stable main
