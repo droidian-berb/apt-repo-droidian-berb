@@ -34,18 +34,18 @@ Description: APT configs for droidian-berb github trixie apt repo
 
 Package: droidian-berb-apt-keyrings
 Architecture: all
-Version: 1+git20240908004142.35d9da0.trixie
+Version: 2+git20240908031311.9e0f9b0.trixie
 Priority: optional
 Section: misc
 Maintainer: berbascum <berbascum@ticv.cat>
-Installed-Size: 17
+Installed-Size: 16
 Pre-Depends: apt
 Depends: ca-certificates
-Filename: pool/trixie/main/binary-all/droidian-berb-apt-keyrings_1+git20240908004142.35d9da0.trixie_all.deb
-Size: 4536
-MD5sum: 72ca9fded7105bfe9a06b26a2b6d772b
-SHA1: f9e73b53d1cd71c6eb4e0f160d74787b100df86c
-SHA256: cfdde476bee0a892bed64f4afd13b74c8c34cb1c38d08a28cbd71cea3168f290
-SHA512: e518902badc016e2b25318215355d347190ab540b1d0a8f8ae040e76f1f975c286550ff333c2d09173aab6f7f162062908b9877b5829ad944d2254950f904239
+Filename: pool/trixie/main/binary-all/droidian-berb-apt-keyrings_2+git20240908031311.9e0f9b0.trixie_all.deb
+Size: 3432
+MD5sum: a3998e0612949e0eb9449e9aa4f08beb
+SHA1: 6a225fb6af20c5adab6c7815954b74872d7d89be
+SHA256: f165e61f4bd7478fe1aa540a3b1e7295872414bec7e251faa366a2e5d782f91b
+SHA512: d65600ca8283eb75c3b8d6d44518607b04ee02857766d2a12e6068492fe9678bf5ced8aa4eadeeca4ee6689dbc89368e609b74fbb3d383b0caf973a330e16aaa
 Description: APT keyrings for droidian-berb github apt repo
 

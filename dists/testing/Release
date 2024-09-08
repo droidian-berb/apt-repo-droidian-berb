@@ -1,7 +1,7 @@
 Architectures: all arm64 amd64
 Codename: testing
 Components: main
-Date: Sun, 08 Sep 2024 01:03:22 +0000
+Date: Sun, 08 Sep 2024 01:20:16 +0000
 Description: droidian-berb apt repo for release testing
 Label: droidian-berb
 Origin: droidian-berb
@@ -13,7 +13,7 @@ MD5Sum:
  e62ff0123a74adfc6903d59a449cbdb0               40 Contents-amd64.gz
  44e847cf447557ecf220dc6f5a92863d            60039 Contents-arm64.bz2
  97be23f962b16dd21896b69db31e32f7            71695 Contents-arm64.gz
- ad7c5b549932487d21bb846c8af26691              218 Release
+ 414ecd1c26f3f9de9711b005cdba2118              218 Release
  0902e5a0182062319472ac442793db1b               28 main/Contents-all.bz2
  e62ff0123a74adfc6903d59a449cbdb0               40 main/Contents-all.gz
  0902e5a0182062319472ac442793db1b               28 main/Contents-amd64.bz2
@@ -36,7 +36,7 @@ SHA1:
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 Contents-amd64.gz
  bba1276d241dbbc8748bdbca5e91856476671893            60039 Contents-arm64.bz2
  97f7ced9de37d7803c7e2f80473f22df1f87aace            71695 Contents-arm64.gz
- 9797d3615e96f325bcbbe9b22c9d6728c42317b2              218 Release
+ 7d16a6e25a198abc7c7b689d9290a08024d268ae              218 Release
  dcddcbc89128ee4d36fe584b2a982131e8f70d53               28 main/Contents-all.bz2
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 main/Contents-all.gz
  dcddcbc89128ee4d36fe584b2a982131e8f70d53               28 main/Contents-amd64.bz2
@@ -59,7 +59,7 @@ SHA256:
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 Contents-amd64.gz
  2f8230eeafaf1ab98728c88fcb6cd6f5ba408f9abd11dad986c9d38221edd938            60039 Contents-arm64.bz2
  3c16f3fa8300e6e12366dbf464d36a0600d6d4f06ead0e577bc8898b614d5d01            71695 Contents-arm64.gz
- 2d8f487e9b5e31255d3abdc992460eb223ece6b3205a386093afd49b1b6f9b93              218 Release
+ 4a14140a09d6edac34408ab020601e102951d4bff1b966d18de3453d0a38116a              218 Release
  f43ffa97e8272d81422a41aa2b1599c418bd3c361fe23ebdd391676379dfe771               28 main/Contents-all.bz2
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 main/Contents-all.gz
  f43ffa97e8272d81422a41aa2b1599c418bd3c361fe23ebdd391676379dfe771               28 main/Contents-amd64.bz2
@@ -82,7 +82,7 @@ SHA512:
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 Contents-amd64.gz
  26dce61536e627f12e45d7f24460c4a5c65a99663108307a26b723a0540a092c741151a132aa3480e667089a7de91093f1c846bf6d5ee35840fad41adde86d80            60039 Contents-arm64.bz2
  d1512ea0edcfb3a834724e4fdaa17704699ea8d1dbb66c07a6cbce7260b3ad66f576271b2afacb92c2309b8192d70211d22d4ba935bcda3bc179b0bb60cbbb1e            71695 Contents-arm64.gz
- 7bbae25d94002a0d3d184c692c20daaf4127a82bf2dc7457249b51cd96a08f8bcad4e84c7d3e9f0a4b190d32b559d90b5a4d45b6ac17ba6a2d9946330218c683              218 Release
+ 06dbeed8fff9b26239c2cae79f61c0ad4a0cdbdd2b0a93be8695c34bea66ab7751f694e1ea59c76f2ebb73f65013cd4d20d69a984642eb0371830177f8b27a0f              218 Release
  37a17e9952eed92a1dfa196475721d1f8a96a58aac1a17e46a5df6b466a26655f151cc0b3b3005e442cd01feadf28ca095df66df47b7582992e1ceacc2cc632f               28 main/Contents-all.bz2
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 main/Contents-all.gz
  37a17e9952eed92a1dfa196475721d1f8a96a58aac1a17e46a5df6b466a26655f151cc0b3b3005e442cd01feadf28ca095df66df47b7582992e1ceacc2cc632f               28 main/Contents-amd64.bz2
