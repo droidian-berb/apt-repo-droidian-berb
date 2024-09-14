@@ -15,6 +15,23 @@ SHA256: 5dc2b28940c8ba9382dd5e26b8f87a10172e12769f2428deaa7c0aac71bafc4d
 SHA512: c365b7e05f7edd5691569ecb00aed7623659e522276a36b322adb3d79da174ea5853dfcb3a5d44a26e42c5ff995c69ffc63fdd633bca17c2057eb590c8428164
 Description: Droidian adaptation for Xiaomi Pocophone X3 Pro vayu api30 - adaptation configurations
 
+Package: adaptation-xiaomi-vayu-configs
+Architecture: arm64
+Version: 19+git20240914154949.8d79f47.droidian
+Priority: optional
+Section: metapackages
+Source: adaptation-xiaomi-vayu
+Maintainer: vacuumbeef
+Installed-Size: 151
+Depends: dconf-gsettings-backend | gsettings-backend
+Filename: pool/trixie/main/binary-arm64/adaptation-xiaomi-vayu-configs_19+git20240914154949.8d79f47.droidian_arm64.deb
+Size: 17624
+MD5sum: 6fb2ac6613c2e46d179cc02c877c788f
+SHA1: 8b4abc73940640fe9e18ab76ba3ebf8b9451ba11
+SHA256: be759f37896a84a4bb346b8e5d9c3dc1901aa8308a600c5e7ed923b72fc2eaa7
+SHA512: 3fe8ea168e6bc425fc38e70d2fb16f77d49c15904e4216611e11e4c5f115fbd6fab54cc1986f73982d708d6877d8955046948de2896e42d8cf9217b4581e881f
+Description: Droidian adaptation for Xiaomi Pocophone X3 Pro vayu api30 - adaptation configurations
+
 Package: adaptation-xiaomi-vayu
 Architecture: arm64
 Version: 18+git20240914141712.f700af5.droidian
@@ -31,6 +48,24 @@ MD5sum: abe2c2416417b7ba77de950910ca2869
 SHA1: 0a926f3eab55275d90a7ca6613fa6552a608ec0e
 SHA256: 9c551d898ea30ae48dd088015f6af594b4e370fd96b8a42636899b3ea0e5a41d
 SHA512: fd25e0b8546a3ab8b5c02ba1ebb77c43f00a177b4b6f071e90ee71f45430d77cb1b27e10f7070555a0d4b8676a96cedbcf197add7fefbf2009dd046cad4c6cd1
+Description: Community adaptation for xiaomi vayu api30 - metapackage
+
+Package: adaptation-xiaomi-vayu
+Architecture: arm64
+Version: 19+git20240914154949.8d79f47.droidian
+Priority: optional
+Section: metapackages
+Maintainer: vacuumbeef
+Installed-Size: 12
+Depends: adaptation-hybris-api30-phone, adaptation-xiaomi-vayu-configs, linux-bootimage-4.14-314-xiaomi-vayu, linux-image-4.14-314-xiaomi-vayu, linux-headers-4.14-314-xiaomi-vayu, inotify-tools, less, vim, neovim, wl-clipboard, git, curl, wget, usbutils, yubikey-luks, man, manpages, cpulimit, htop, ofono-binder-plugin, ofono-configs-binder-common, droidian-camera, gstreamer1.0-tools, mobile-power-saver, fpd-unlock, phosh-osk-stub, mobile-settings, gnome-tweaks
+Conflicts: adaptation-droidian-vayu, adaptation-vayu-configs
+Breaks: adaptation-droidian-vayu, adaptation-vayu-configs
+Filename: pool/trixie/main/binary-arm64/adaptation-xiaomi-vayu_19+git20240914154949.8d79f47.droidian_arm64.deb
+Size: 5964
+MD5sum: 17134357e320194603bc6a835a03e993
+SHA1: 489094270e0d687fe5f5417540edaedc52e1b8d4
+SHA256: 401eeda281c6e8bb8ee2eb8069a98bec8af403cad4ed5ec3dbb50afee24f3317
+SHA512: 4135ac0808a6c5e0a3ae7eea5ca857ba71ad0d0ff73f905436ffecb6a19f4f1a04f88bb33959868599974423ed5b3dd52f2ea493ca05d5ff557cb1c830bf343c
 Description: Community adaptation for xiaomi vayu api30 - metapackage
 
 Package: droidian-restart-services-gtk3
