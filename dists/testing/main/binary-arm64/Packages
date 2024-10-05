@@ -364,6 +364,28 @@ Description: Linux kernel for Xiaomi Pocophone X3 Pro - Android Boot Image
  Note: This package ships an Android Boot Image bundled with Halium's
  initramfs.
 
+Package: linux-bootimage-4.14-314-xiaomi-vayu
+Architecture: arm64
+Version: 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid
+Priority: optional
+Section: kernel
+Source: linux-android-xiaomi-vayu
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 69488
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.14-314-xiaomi-vayu (= 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid)
+Filename: pool/testing/main/binary-arm64/linux-bootimage-4.14-314-xiaomi-vayu_4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid_arm64.deb
+Size: 69751048
+MD5sum: f6517e3e0294c58b6610c968b82f477b
+SHA1: a4743425ac646b9bb26cfa1ab978791dc95f823e
+SHA256: a0724b229f9d3f3e07cf9c361ff78ddc8f2b8b6534f25fbfd1db7666b4f8962a
+SHA512: cc4b4a1ef2ce1907d934b0b8c0bf4b26bd72f420f44c641ffbb434feaf246b46bd9b608361db89d5483e9447533483120122901b38f942f5f5324c4c0d6c4679
+Description: Linux kernel for Xiaomi Pocophone X3 Pro - Android Boot Image
+ This package contains the Linux kernel for the Xiaomi Pocophone X3 Pro device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+
 Package: linux-bootimage-xiaomi-vayu
 Architecture: arm64
 Version: 4.14.314+droidian1-rc10+git20240911002630.99ee72d.droidian.l4v3nx.sid
@@ -631,6 +653,24 @@ MD5sum: 5988d791f0fb29893b77c46f92b33ddc
 SHA1: 7a80c6bc3735e7dba10465cf8a15e021a6f65afa
 SHA256: 1b3298fa7ed4e07294e601d0a722e4b15ef4aab25e07916fecf37d5d4ba993cd
 SHA512: 0fc6429b5c8b6d077da7d886208f9eb45cac9acce5d5ee6768ad104993c42d48fdd6859b1d2f719235e1474bbba640e298f2788e01b0b837df400f0f942f222e
+Description: Linux kernel for Xiaomi Pocophone X3 Pro - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Xiaomi Pocophone X3 Pro.
+
+Package: linux-bootimage-xiaomi-vayu
+Architecture: arm64
+Version: 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid
+Priority: optional
+Section: kernel
+Source: linux-android-xiaomi-vayu
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 1137
+Depends: linux-bootimage-4.14-314-xiaomi-vayu (= 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid)
+Filename: pool/testing/main/binary-arm64/linux-bootimage-xiaomi-vayu_4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid_arm64.deb
+Size: 1155340
+MD5sum: 81acb24c140cd052cd521094bdbdc5ec
+SHA1: 91b191055bbf4b1fffd7130a8b689a76f1097765
+SHA256: aa8fde5f1922ed764f4c251ae80baaa71f9fe13d867ca5b3fb7d0d61617f0f04
+SHA512: e8c94dc03519dcb21337db554b2072aec047f6c08d05376b5160f687f8c1a30f80d273bc31bd03deddd8f886007af7ec5c6f565977a0a1cb23a9c45b4871c583
 Description: Linux kernel for Xiaomi Pocophone X3 Pro - Android Boot Image  (latest)
  This package depends to the latest kernel bootimage available for the Xiaomi Pocophone X3 Pro.
 
@@ -904,6 +944,24 @@ SHA512: 7134b620354e018eedea4787515f1c61786254ce5e1ba30bd5eeeae3cbed339bd0469ebe
 Description: Linux kernel for Xiaomi Pocophone X3 Pro - Headers
  This package contains the Linux kernel headers for the Xiaomi Pocophone X3 Pro device.
 
+Package: linux-headers-4.14-314-xiaomi-vayu
+Architecture: arm64
+Version: 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid
+Priority: optional
+Section: kernel
+Source: linux-android-xiaomi-vayu
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 56106
+Depends: linux-image-4.14-314-xiaomi-vayu (= 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid)
+Filename: pool/testing/main/binary-arm64/linux-headers-4.14-314-xiaomi-vayu_4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid_arm64.deb
+Size: 9583820
+MD5sum: 253e24acc4a14c5dfe8085176febe430
+SHA1: fd4930eddd2371d3cdeb10507a248441d65aa179
+SHA256: a0800f2ade626ec75c07f382040dbf98354f202ae9ab76f263f4d89fbfd35440
+SHA512: 68afe4e4825380e2efb6caa89ab514bc492253603f14e9c1241fc0556b100595ae14759d8d3829082fba282db0c2a32ba0e75434e8a7404af76c73462293b49d
+Description: Linux kernel for Xiaomi Pocophone X3 Pro - Headers
+ This package contains the Linux kernel headers for the Xiaomi Pocophone X3 Pro device.
+
 Package: linux-headers-xiaomi-vayu
 Architecture: arm64
 Version: 4.14.314+droidian1-rc10+git20240911002630.99ee72d.droidian.l4v3nx.sid
@@ -1171,6 +1229,24 @@ MD5sum: 261f87f3262eabdc68b540c931504a72
 SHA1: d0f11d7742bf44aea279df8aeac47651044e21c1
 SHA256: 1f81a325183494f4461c599678ead102c7c7cc538d4a15c4e13bcc11a1a7de92
 SHA512: 64a79c9a8b47145ccea46a28dfc6585a0d8c0c246e4e4682cc22c4ae97b57c1b7590f36b73545720196da541d6354821f68cd93d05926d2460684b84797ca563
+Description: Linux kernel for Xiaomi Pocophone X3 Pro - Headers (latest)
+ This package depends to the latest kernel headers available for the Xiaomi Pocophone X3 Pro.
+
+Package: linux-headers-xiaomi-vayu
+Architecture: arm64
+Version: 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid
+Priority: optional
+Section: kernel
+Source: linux-android-xiaomi-vayu
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 1137
+Depends: linux-headers-4.14-314-xiaomi-vayu (= 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid)
+Filename: pool/testing/main/binary-arm64/linux-headers-xiaomi-vayu_4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid_arm64.deb
+Size: 1155332
+MD5sum: 3a750ca3422804d3b111cef672efa483
+SHA1: 580c462b1c6a9e8f1d43cd27e6dfa49a86e34012
+SHA256: 79a046050b1f061a91149c04ed90e2278d8ab92a775fd393148b288f54fbfa9c
+SHA512: df0f3cff01be6b4abc6d61f4a9210c50825d55aad7bf380cfbf24d1d3b645916f86863e0dc86070369b2bdc83a09ce8c08c708a099afa6cad36c3036bade1d93
 Description: Linux kernel for Xiaomi Pocophone X3 Pro - Headers (latest)
  This package depends to the latest kernel headers available for the Xiaomi Pocophone X3 Pro.
 
@@ -1489,6 +1565,27 @@ Description: Linux kernel for Xiaomi Pocophone X3 Pro
  look at the linux-bootimage-4.14-314-xiaomi-vayu package for a bootimage suitable
  for Android boot loaders.
 
+Package: linux-image-4.14-314-xiaomi-vayu
+Architecture: arm64
+Version: 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid
+Priority: optional
+Section: kernel
+Source: linux-android-xiaomi-vayu
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 25303
+Filename: pool/testing/main/binary-arm64/linux-image-4.14-314-xiaomi-vayu_4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid_arm64.deb
+Size: 19910404
+MD5sum: 9638b459fa96d99a2c7e7baf39fe7050
+SHA1: b27a018cfd4064583eab3f3ce25c57eb3783fb7d
+SHA256: 4be797b91130f3986cf0c7eeee6ccc11d160bb57e39c8a90862537c3491da2e6
+SHA512: 905425fd947d5e7ebfdd19f2134e15f7b16e4d7c58e55b4e8ecf6addbfaff829183c61a732d3ff4ecc8fe6cbc6d42b35e749ca905fe538dc93871d195b2c12b0
+Description: Linux kernel for Xiaomi Pocophone X3 Pro
+ This package contains the Linux kernel for the Xiaomi Pocophone X3 Pro device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.14-314-xiaomi-vayu package for a bootimage suitable
+ for Android boot loaders.
+
 Package: linux-image-xiaomi-vayu
 Architecture: arm64
 Version: 4.14.314+droidian1-rc10+git20240911002630.99ee72d.droidian.l4v3nx.sid
@@ -1756,6 +1853,24 @@ MD5sum: a22968c14662d592c4223e459adfce02
 SHA1: 2133c99162089af519a5c00dc3d103483b9498da
 SHA256: 0bc5fcad2b637d662b8ed30a8bc73e8c951873029a10013137e7c40113bedd88
 SHA512: 36daf0ee8af3ae691332e71c20aca69dfe53f52353a19116cec32d19b5503368b82fc88c2f0d813ce5a5802606b28ab45f2186b97d8d6ed81543231b7bac3020
+Description: Linux kernel for Xiaomi Pocophone X3 Pro (latest)
+ This package depends to the latest kernel image available for the Xiaomi Pocophone X3 Pro.
+
+Package: linux-image-xiaomi-vayu
+Architecture: arm64
+Version: 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid
+Priority: optional
+Section: kernel
+Source: linux-android-xiaomi-vayu
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 1137
+Depends: linux-image-4.14-314-xiaomi-vayu (= 4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid)
+Filename: pool/testing/main/binary-arm64/linux-image-xiaomi-vayu_4.14.314+droidian3-rc4+git20241005143524.96526ce.droidian.l4v3nx.sid_arm64.deb
+Size: 1155316
+MD5sum: 9ccc76307224f719ef02ca6fecc78e22
+SHA1: 34f110f50043fed7533f75a91ed7edd432036e54
+SHA256: 17791207005633badcc566bb717065fcc9e707dca40e44d49d4be049aa0a8f9c
+SHA512: 0d36a40ff4ed204eb99bd8dc769462366baae812c493efbb6fe5c8b66b603b78d8413f9db7e5aaa3fb4a9a175281b260d1f169e312acc30430a3315b2c1ce618
 Description: Linux kernel for Xiaomi Pocophone X3 Pro (latest)
  This package depends to the latest kernel image available for the Xiaomi Pocophone X3 Pro.
 
