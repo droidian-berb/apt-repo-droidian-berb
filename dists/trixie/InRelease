@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: all arm64 amd64
 Codename: trixie
 Components: main
-Date: Sat, 23 Nov 2024 12:40:14 +0000
+Date: Sat, 23 Nov 2024 12:57:09 +0000
 Description: droidian-berb apt repo for release trixie
 Label: droidian-berb
 Origin: droidian-berb
@@ -16,7 +16,7 @@ MD5Sum:
  e62ff0123a74adfc6903d59a449cbdb0               40 Contents-amd64.gz
  b8fafeced01d628196a86568934df033              245 Contents-arm64.bz2
  bfbba9dc03ed8bb920fa3c337c52f62b              195 Contents-arm64.gz
- 0f2d65c32776624ba6e95690122fabc7              215 Release
+ 95817a70791c0739061d084e432c9318              215 Release
  b3430f8e195fefbce256b4b5aaf983df              304 main/Contents-all.bz2
  a0e9720a0606f1bb1b20da8b398bc42f              267 main/Contents-all.gz
  0902e5a0182062319472ac442793db1b               28 main/Contents-amd64.bz2
@@ -39,7 +39,7 @@ SHA1:
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 Contents-amd64.gz
  b51cecaa9a598a495d4a358c2fa2bc2505314a87              245 Contents-arm64.bz2
  bd770467f6d17930196a3de8b969e132bcbdeee0              195 Contents-arm64.gz
- 664cc8fa8517c52b38c9c91b4d2d057e2b6b93fe              215 Release
+ 9c85c66514a361109752db4c2ea21a36629fa92d              215 Release
  b9d356e72f4d36afdade9564d490488c143dacac              304 main/Contents-all.bz2
  80558f11c0b6017176586a05607fc790a1f22294              267 main/Contents-all.gz
  dcddcbc89128ee4d36fe584b2a982131e8f70d53               28 main/Contents-amd64.bz2
@@ -62,7 +62,7 @@ SHA256:
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 Contents-amd64.gz
  acac0cfa20dafe5b737c8cd37f20f2d9ddf774bfbde88ea55daf2105163db0e7              245 Contents-arm64.bz2
  11ac03a47b249f7d7f03dfe80ae6fc8f751519a5ded7eef7fd4acb9b651de8cd              195 Contents-arm64.gz
- fa2cad6e0c760eafbd99c89e1a2ec612fe2f69458afe0d043310d8f5a9e47bfa              215 Release
+ 3808e107df2eaa83f59b5fc6231bb272af542786cddc0f67615c13fe479cc38b              215 Release
  ac454ce3a4a6177ec487eb60a496a32299618b83494a8a576664fc7e7a9f2eb2              304 main/Contents-all.bz2
  ff59b2d8025ffedd226a04432166befd87c5679c061ca0d421e7f81349211a05              267 main/Contents-all.gz
  f43ffa97e8272d81422a41aa2b1599c418bd3c361fe23ebdd391676379dfe771               28 main/Contents-amd64.bz2
@@ -85,7 +85,7 @@ SHA512:
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 Contents-amd64.gz
  4d6f36eff5ef651941b38bc7fe2ed51c8e4def521d51d234deafc2738440d7357d3c00b363736cf646955e2d36b4ffa9281da6bd175b0a3b4c91d62c59b3d669              245 Contents-arm64.bz2
  035d55bc9cd3ebed6310fc3318347975455ad035ef5f51f9859f713c5a7928426f519b0d82ab512a85ddd692e0e4bc3996017b1784c15edef6abb044ba3ea0e6              195 Contents-arm64.gz
- b58191261052a64ad8ef662e32a1642e6af2168b675e99552a61034fbd243ac2e3cec3ed59e396be64441226657e972a5a634033a5dd5558a4acf43e7918ef71              215 Release
+ 1ffc1e13227732688f53828ab08a917007a8b60d40484a538d72f8072da9702358633b65800752b6ca89c2dac1e55e6022d17a14cc5bb567da573c3453452a61              215 Release
  e36b109f15148e06a16a2aaca406d8b76400fb3139849fd3479d2330712dc9231b96b8d1e2ecad2cf28e6722a294fc575f9d18ae4a566218c555f765cf6fe396              304 main/Contents-all.bz2
  b2198bfd765712ccd5eee7df1c7367f16e4cd78915b9e80b5f80e3fc413498ead7022960b0d3e8fe1c5c4c51411fe85ce25f2f90ac785b724af8cd83c179d94b              267 main/Contents-all.gz
  37a17e9952eed92a1dfa196475721d1f8a96a58aac1a17e46a5df6b466a26655f151cc0b3b3005e442cd01feadf28ca095df66df47b7582992e1ceacc2cc632f               28 main/Contents-amd64.bz2
@@ -103,17 +103,17 @@ SHA512:
  ef0b499943e03e3485b85b8e2c5e8adefebfa6e85bdb52c71437ff512849883414a041e7944b01c3777c9315454d37a57fdc1624d0dd519434c7c73fb17159fe              490 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEP897io9MXjF0bxLgaf1HNhOCckcFAmdBzS8ACgkQaf1HNhOC
-ckeFGRAAkZCSsQLFOhIZP66h69fcY724u/UVQzM2ZbFhFK2bd/tkqeLqCR2rjND7
-1M/CHlROesHZ4UmmLJ8gn0j8FwjfMXJDp24Xk9aLtlod2MdePyJjbX7/kEPL9Odl
-nv1xzsQ+ABWbTS1JR1pPFfda0SPd3vS855K/FWxEz9651EokX04w2BSBLIA5f4xo
-wSkZlBeHjFSF5CAKWZha+17kWtJ2AVLpY0ELOboLgS6OsYlH7AccfAEbC5Hj8oPw
-0J9mk99AIpY69NYieVoV5IAlz1iHOvR4MHTfOPC8gzaDUNcXlTDJwZ81xXNntZtR
-eutgMAdoAiiXtvnvC5qo+usVt/zfhZgTX0xG6riQev9WS3pcAOmgpqPHP0HVMVNl
-8RltiQRbSTljI/QSEj62XRls+hHDPrTHmFEb+tzMX9ggIDTfw1nFT1c++Mq9QisF
-N64xt8JnCA7cyCvISyiFMh3A/0kM9u3m9mYY7jH1+pAkcaipFSegC9zm6qgZpwPF
-4QPJ/D2jLO4kW5x4OzfyKzDjchzOsfAnMrxj8NEluzFVYRbpqGlPu9f85qimvIL3
-lp+FoIY1KLg7V5Wyp55ci4ydDrXvkGETK0xTfLH9FAI0BCDUHPc8f/qYDb8lR8hy
-rt2PpMVipwBh6n4AYntrXHePVF1ndVtpUFBgClBv1qI821QPeuI=
-=z7uA
+iQIzBAEBCgAdFiEEP897io9MXjF0bxLgaf1HNhOCckcFAmdB0SUACgkQaf1HNhOC
+ckdi3w//XQP4sHiapW8bMHzDWcUyTm+aM9JETz8ocNVTTYklNxnLVKr91D4kHzGa
+hBRNoeCr6jdoK7PiHFTDY+S57BfrgbL28PHu5+uVB8iThaWIGMFTjNPWeKAVco9k
+hgOHQSKg+L65NxY7nwgW3UwIZM7tO64EgkMFWTMqaVZpwxo5UpPLA635URFBJUdQ
+U2Dw7ccm1Cp/Hic0fh0PDHAkQ/WWWSgJyFoh0kFiFfbwLySPVpd3XoOvj7VDNjHC
+tRG3rgQ+HlImQydHk00pCUb+2bIzQPOU38dL06No+b1k3GJjjOktKr+2nW21CTLc
+kui24xZklJ0+yoPUbgezcz5vYagrxpSv4pFnWfVJwAGwmE2VxtGc8vXHAEZm8qH9
+iHAUwvAF/+HsoLnicMGBtPPlTEnUSPUK5vI32nOZu1w9dwjl9sLfoFGe6fbX1FzG
+M4S+zmKYAsgPwE/gD2RRRsKSjZYDwk+zKmUSSP5iiaqAdzAs7MCMrTZgdpU0yq2h
+fRyWrUJqB35cElCbrACiPYOj5ogU23JfjuMrWuLhzI3ghKKfcJlFsDadMq9WaIxi
+f8aI+W9gCYQ6PGCaOAmSAaHp9n3F8IzgZ5IW+QnOtWI4UHNGCErlnbv6+MOt/Tgl
+RyCT3VxvxcWC4Jrq0+NqJyuMo/KyCQw27gBXD8B/d5DkovL9BAA=
+=CC1y
 -----END PGP SIGNATURE-----
