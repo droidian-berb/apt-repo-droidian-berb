@@ -30,6 +30,7 @@ jobs:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
           echo "$GPG_PRIVATE_KEY" | gpg --import --batch
+          gpg --list-keys
           echo "allow-preset-passphrase" > ~/.gnupg/gpg-agent.conf
           echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
           echo "no-tty" >> ~/.gnupg/gpg.conf
