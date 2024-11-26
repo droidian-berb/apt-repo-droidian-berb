@@ -37,12 +37,11 @@ jobs:
       - name: Generate Packages, Release and sign
         env:
           GPG_TTY: $(tty)
-          SCRIPT_CALLER: github
           GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
           chmod +x /usr/bin/berb-apt-mgr
-          SCRIPT_CALLER=github /usr/bin/berb-apt-mgr --rebuild --batch
+          /usr/bin/berb-apt-mgr --rebuild --batch
 
       - name: Commit and push changes
         env:
