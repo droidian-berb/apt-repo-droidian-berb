@@ -42,7 +42,7 @@ jobs:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
           chmod +x /usr/bin/berb-apt-mgr
-          /usr/bin/berb-apt-mgr --rebuild --batch
+          SCRIPT_CALLER=github /usr/bin/berb-apt-mgr --rebuild --batch
 
       - name: Commit and push changes
         env:
