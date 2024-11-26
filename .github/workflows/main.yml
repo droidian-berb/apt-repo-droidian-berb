@@ -25,11 +25,9 @@ jobs:
       - name: Import GPG key and setup gpg
         env:
           GPG_TTY: $(tty)
-          GNUPGHOME: /home/runner/.gnupg
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
-          [ -d "$GNUPGHOME" ] || mkdir -p $GNUPGHOME
           echo "$GPG_PRIVATE_KEY" | gpg --import --batch
           echo "allow-preset-passphrase" > ~/.gnupg/gpg-agent.conf
           echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
@@ -40,7 +38,6 @@ jobs:
         env:
           GPG_TTY: $(tty)
           SCRIPT_CALLER: github
-          GNUPGHOME: /home/runner/.gnupg
           GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
