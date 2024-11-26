@@ -1,0 +1,61 @@
+name: Update Packages Repository
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-repo:
+    container:
+      image: ghcr.io/berbascum/berb-debian-build-essential:trixie-slim-amd64
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+
+      - name: Install berb-apt-mgr
+        run: |
+          apt-get update
+          apt-get install -y berb-apt-mgr
+
+      - name: Import GPG key and setup gpg
+        env:
+          GPG_TTY: $(tty)
+          GNUPGHOME: /home/runner/.gnupg
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        run: |
+          echo "$GPG_PRIVATE_KEY" | gpg --import --batch
+          echo "allow-preset-passphrase" > ~/.gnupg/gpg-agent.conf
+          echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
+          echo "no-tty" >> ~/.gnupg/gpg.conf
+          gpg-connect-agent reloadagent /bye
+
+      - name: Generate Packages, Release and sign
+        env:
+          GPG_TTY: $(tty)
+          SCRIPT_CALLER: github
+          GNUPGHOME: /home/runner/.gnupg
+          GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        run: |
+          chmod +x /usr/bin/berb-apt-mgr
+          /usr/bin/berb-apt-mgr --rebuild --batch
+
+      - name: Commit and push changes
+        env:
+          USER: ${{github.repository_owner}}
+          EMAIL: $USER@ticv.cat
+          REPO: ${{github.event.repository.name}}
+          BRANCH: main
+        run: |
+          git config user.name "$USER"
+          git config user.email "$EMAIL"
+          git config --global commit.gpgSign true
+          git config --global user.signingkey $GPG_KEY_ID
+          git add -A
+          git commit -S -m "Rebuild repository"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$USER/$REPO.git HEAD:$BRANCH
