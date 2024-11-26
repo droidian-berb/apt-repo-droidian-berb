@@ -14,9 +14,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout the repo
-        uses: actions/checkout@v4
-
       - name: Install berb-apt-mgr
         run: |
           apt-get update
@@ -34,6 +31,9 @@ jobs:
           echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
           echo "no-tty" >> ~/.gnupg/gpg.conf
           gpg-connect-agent reloadagent /bye
+
+      - name: Checkout the repo
+        uses: actions/checkout@v4
 
       - name: Generate Packages, Release and sign
         env:
