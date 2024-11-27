@@ -54,16 +54,13 @@ jobs:
           GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
-          echo "Current directory: $(pwd)"
-          ls -la ./
           cd .git
           git config user.name "$USER"
           git config user.email "$EMAIL"
           git config commit.gpgSign true
           git config user.signingkey "$GPG_KEY_ID"
           #git config --add safe.directory /__w/$REPO/$REPO
-          cat config
-          cd ..
+          cd ../
           # git add -A
           # git commit -S -m "Rebuild repository"
           # git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$USER/$REPO.git HEAD:$BRANCH
