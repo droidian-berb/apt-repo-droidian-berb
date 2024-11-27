@@ -57,9 +57,9 @@ jobs:
           cd .git
           git config user.name "$USER"
           git config user.email "$EMAIL"
+          git config commit.gpgSign true
+          git config user.signingkey $GPG_KEY_ID
           #git config --add safe.directory /__w/$REPO/$REPO
-          #git config commit.gpgSign true
-          #git config user.signingkey $GPG_KEY_ID
           cat config
           cd ..
           # git add -A
