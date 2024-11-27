@@ -48,7 +48,7 @@ jobs:
       - name: Commit and push changes
         env:
           USER: ${{github.repository_owner}}
-          EMAIL: "$USER"@ticv.cat
+          EMAIL: "${USER}@ticv.cat"
           REPO: ${{github.event.repository.name}}
           BRANCH: main
         run: |
