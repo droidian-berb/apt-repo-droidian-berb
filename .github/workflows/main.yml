@@ -51,6 +51,8 @@ jobs:
           EMAIL: "${USER}@ticv.cat"
           REPO: ${{github.event.repository.name}}
           BRANCH: main
+          GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
           echo "Current directory: $(pwd)"
           ls -la ./
