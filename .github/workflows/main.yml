@@ -54,11 +54,11 @@ jobs:
         run: |
           echo "Current directory: $(pwd)"
           ls -la ./
-          git config --global user.name "$USER"
-          git config --global user.email "$EMAIL"
-          git config --global --add safe.directory /__w/$REPO/$REPO
-          git config --global commit.gpgSign true
-          git config --global user.signingkey $GPG_KEY_ID
-          git add -A
-          git commit -S -m "Rebuild repository"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$USER/$REPO.git HEAD:$BRANCH
+          git config user.name "$USER"
+          # git config user.email "$EMAIL"
+          # git config --global --add safe.directory /__w/$REPO/$REPO
+          # git config --global commit.gpgSign true
+          # git config --global user.signingkey $GPG_KEY_ID
+          # git add -A
+          # git commit -S -m "Rebuild repository"
+          # git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$USER/$REPO.git HEAD:$BRANCH
