@@ -48,7 +48,7 @@ jobs:
       - name: Commit and push changes
         env:
           USER: ${{github.repository_owner}}
-          EMAIL: $USER@ticv.cat
+          EMAIL: "$USER"@ticv.cat
           REPO: ${{github.event.repository.name}}
           BRANCH: main
         run: |
@@ -58,10 +58,7 @@ jobs:
           git config user.name "$USER"
           git config user.email "$EMAIL"
           git config commit.gpgSign true
-          cat config
-          # git config --global commit.gpgSign
-          git config --global user.signingkey "$GPG_KEY_ID"
-          git config --global user.signingkey
+          git config user.signingkey "$GPG_KEY_ID"
           #git config --add safe.directory /__w/$REPO/$REPO
           cat config
           cd ..
