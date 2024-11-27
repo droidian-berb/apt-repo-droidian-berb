@@ -13,6 +13,8 @@ jobs:
       image: ghcr.io/berbascum/berb-debian-build-essential:trixie-slim-amd64
     permissions:
       contents: write
+    env:
+      SCRIPT_CALLER: github
     steps:
       - name: Install berb-apt-mgr
         run: |
