@@ -54,7 +54,8 @@ jobs:
         run: |
           echo "Current directory: $(pwd)"
           ls -la ./
-          c
+          cd .git
+          cat config
           git config --global user.name "$USER"
           # git config user.email "$EMAIL"
           # git config --global --add safe.directory /__w/$REPO/$REPO
