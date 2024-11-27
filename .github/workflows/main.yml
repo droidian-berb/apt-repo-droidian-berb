@@ -59,7 +59,7 @@ jobs:
           git config user.email "$EMAIL"
           git config commit.gpgSign true
           git config user.signingkey "$GPG_KEY_ID"
-          #git config --add safe.directory /__w/$REPO/$REPO
+          git config --global --add safe.directory "/__w/$REPO/$REPO"
           cd ../
           git add -A
           git commit -S -m "Rebuild repository"
