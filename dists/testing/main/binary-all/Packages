@@ -1,0 +1,26 @@
+Package: gnome-settings-daemon-common
+Architecture: all
+Version: 47.1-1~git20241208232735.66ec272.fix.backlight.vayu
+Priority: optional
+Section: gnome
+Source: gnome-settings-daemon
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 5190
+Provides: gnome-settings-daemon-schemas (= 47.1-1~git20241208232735.66ec272.fix.backlight.vayu)
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
+Replaces: gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
+Filename: pool/testing/main/binary-arm64/gnome-settings-daemon-common_47.1-1~git20241208232735.66ec272.fix.backlight.vayu_all.deb
+Size: 713076
+MD5sum: 895495f4da4f009126ddb51050b94170
+SHA1: 734f1ab15d99abbc01d77537f84319b817d7ebc9
+SHA256: c851ec0414bf9fed3734dc176b1f15885e3358cb7f0e673440f70c2d61d4ed7d
+SHA512: a876853c34b55ad357e7ca172afc88ba6c0f06bb43481096a81531f4fd72fba85fdc4052000c1cfb5d421911c9f3b3d60d25a6a808e19e54608f26098448dd51
+Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
+Description: daemon handling the GNOME session settings - common files
+ This package contains GSettings schemas and other architecture-independent
+ files for GNOME Settings Daemon. It is probably not interesting on its own for
+ end users, but packages may depend on this if they only need to read and write
+ settings & don't themselves care if the settings daemon is actually running or
+ not.
+
