@@ -1,3 +1,44 @@
+Package: android-sdk-ufdt-tests-dbgsym
+Architecture: arm64
+Version: 13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: android-platform-system-libufdt
+Maintainer: Berbascum <berbascum@ticv.cat>
+Installed-Size: 54
+Depends: android-sdk-ufdt-tests (= 13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb)
+Filename: pool/trixie/main/binary-arm64/android-sdk-ufdt-tests-dbgsym_13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb_arm64.deb
+Size: 36044
+MD5sum: 4641fc1ddfa991b89d865d3d1b27c8f6
+SHA1: 11f21e4350dae57530dda25dbe3fb7a2522f1edc
+SHA256: 717107f03f760178353db025222be6f21a3eed2cce4569f525ecae33b3843eba
+SHA512: 2e29757807f74076baf173db875360540c5c38de1f6c245a2dd7758fb8323dd3cdce738d3363f6f2c88f75ab272947e7536344a77d2544a92cf78f2302366ad4
+Description: debug symbols for android-sdk-ufdt-tests
+Build-Ids: c6a1a16fb506e24d2f9af30fc04030e9dde926f8
+
+Package: android-sdk-ufdt-tests
+Architecture: arm64
+Version: 13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb
+Priority: optional
+Section: utils
+Source: android-platform-system-libufdt
+Maintainer: Berbascum <berbascum@ticv.cat>
+Installed-Size: 84
+Depends: libc6 (>= 2.34), libfdt1 (>= 1.7.0)
+Filename: pool/trixie/main/binary-arm64/android-sdk-ufdt-tests_13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb_arm64.deb
+Size: 18604
+MD5sum: 3c96b1ccbd812d1f967ea41e1206e5b3
+SHA1: d15a94e5d125947c39df387152b5933221ecd07f
+SHA256: 375d4be63144faa9da72beedd404b162401cc359ee1adb5eeae413c9e30e04f5
+SHA512: 4b5352159e7ad16ea3d8dd9c5def6003365fefba39f43166921c357382e2cff8dabe0f096c0f9081c424f89bf57292bd674e6552aa1f7be7d1ab6348e9ae99ff
+Homepage: https://android.googlesource.com/platform/system/libufdt
+Description: Android ufdt tests binaries
+ This package contains packaged tests for Android platform's
+ libufdt.
+ .
+ Currently the only binary shipped is ufdt_apply_overlay.
+
 Package: droidian-restart-services-gtk3
 Architecture: arm64
 Version: 0.0.2+git20240714153432.7d34771.testing

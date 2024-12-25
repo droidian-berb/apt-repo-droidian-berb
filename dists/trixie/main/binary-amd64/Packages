@@ -1,0 +1,41 @@
+Package: android-sdk-ufdt-tests-dbgsym
+Architecture: amd64
+Version: 13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: android-platform-system-libufdt
+Maintainer: Berbascum <berbascum@ticv.cat>
+Installed-Size: 53
+Depends: android-sdk-ufdt-tests (= 13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb)
+Filename: pool/trixie/main/binary-amd64/android-sdk-ufdt-tests-dbgsym_13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb_amd64.deb
+Size: 36308
+MD5sum: 88f910dd4be23df65402072b5bebcce8
+SHA1: 677b7e78c2aa9a58c1cf4bb15e3cdb5b60e120e9
+SHA256: 5837eb717f499eca0d3153085b8b69950d5374dced3aa09e68b67f658eaba402
+SHA512: 05c4d4cbbd7f355c58f09767bb88825ccdbc630c2a1fdb116de49d6875c2be92925a712d2ea34c8895ee37bf531a5dd265b241dfc99c65dc5e3cf1045642d248
+Description: debug symbols for android-sdk-ufdt-tests
+Build-Ids: bab2a8aa2e32888d5b0a9a7eb8c3fc2e84a8d240
+
+Package: android-sdk-ufdt-tests
+Architecture: amd64
+Version: 13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb
+Priority: optional
+Section: utils
+Source: android-platform-system-libufdt
+Maintainer: Berbascum <berbascum@ticv.cat>
+Installed-Size: 48
+Depends: libc6 (>= 2.34), libfdt1 (>= 1.7.0)
+Filename: pool/trixie/main/binary-amd64/android-sdk-ufdt-tests_13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb_amd64.deb
+Size: 18540
+MD5sum: 68ce2af4afb2c3c787b06152a9198b18
+SHA1: 24379e6f3218abe194ea994f7e64796a47b4741f
+SHA256: 66884dbc5c81eb7f973eb43effe350c0b8843682d9b2644901c9215e81d96c39
+SHA512: 36322c313d2cc90ed3387232ede11845255ef654fb91d6e914d817f34c9537eb374140a43b8aadc16a9a857fb40492975d90f9074fadae200450e3a239267d59
+Homepage: https://android.googlesource.com/platform/system/libufdt
+Description: Android ufdt tests binaries
+ This package contains packaged tests for Android platform's
+ libufdt.
+ .
+ Currently the only binary shipped is ufdt_apply_overlay.
+

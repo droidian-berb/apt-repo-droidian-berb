@@ -66,3 +66,41 @@ SHA256: c56a8441b2ed0d55ab98aab012d45bf117a740cdf07c732aa8d444d85cb83ba4
 SHA512: cb4ac1deeabf23df9df6b86186a9f4ff897071481d043a421c7d308214317a54f815bdafa83b33d2c3b7e7c01c9efbfac9c1381e94ae55d5c00b6dff558d1404
 Description: APT keyrings for droidian-berb github apt repo
 
+Package: mkbootimg
+Architecture: all
+Version: 20.0-2+git20241225113203.a4aea0d.droidian.unofficial.berb
+Priority: optional
+Section: devel
+Maintainer: berbascum <berbascum@ticv.cat>
+Installed-Size: 164
+Depends: python3
+Filename: pool/trixie/main/binary-all/mkbootimg_20.0-2+git20241225113203.a4aea0d.droidian.unofficial.berb_all.deb
+Size: 38000
+MD5sum: 7a23d43b576985dc681a70757be6b6ee
+SHA1: baefa705d85b58d89e965e3d6580cd17b25bb103
+SHA256: 40b4d6988191401317c88afbaf417faf6c780e66c2a550a4147d3225c4259b76
+SHA512: bec31e2d64cb7da7de76332c2fb394bc3da6ec17faf9987a22e98ab00ed76134ea52eebee9ad88b3ee5950f686ab3ee0d474195f4ad7cee0c093782b445640bd
+Homepage: https://github.com/LineageOS/android_system_tools_mkbootimg
+Description: Creates Android boot images that includes kernel image and ramdisk,
+             in a special format which can be used with fastboot.
+
+Package: mkdtboimg
+Architecture: all
+Version: 13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb
+Priority: optional
+Section: utils
+Source: android-platform-system-libufdt
+Maintainer: Berbascum <berbascum@ticv.cat>
+Installed-Size: 66
+Depends: python3:any, python3 (>= 3.8)
+Filename: pool/trixie/main/binary-all/mkdtboimg_13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb_all.deb
+Size: 16716
+MD5sum: f3943a3b1251d18af6251f6449d026d9
+SHA1: 1ce7bda193f18cbb2e3f333830f3c4b773b298b2
+SHA256: eb31ee9bb45bd61cb1ab93f66ed1d4f39c030a6edafcfff0072f474b2affafcd
+SHA512: e0d179deaaf085b22ac6cd6302b9e6aa469388797c80e8aecb1fb1035b3e3eee0371b0bce12c3d527fdc259bee676582334deffa7edf6cd7f8f91cbe791306d6
+Homepage: https://android.googlesource.com/platform/system/libufdt
+Description: Tool for packing multiple DTB/DTBO files into a single image
+ This package contains mkdtboimg, a tool for packing multiple
+ DTB/DTBO files into a single image.
+
