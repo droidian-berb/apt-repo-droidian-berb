@@ -49,39 +49,96 @@ SHA256: c56a8441b2ed0d55ab98aab012d45bf117a740cdf07c732aa8d444d85cb83ba4
 SHA512: cb4ac1deeabf23df9df6b86186a9f4ff897071481d043a421c7d308214317a54f815bdafa83b33d2c3b7e7c01c9efbfac9c1381e94ae55d5c00b6dff558d1404
 Description: APT keyrings for droidian-berb github apt repo
 
+Package: linux-packaging-snippets
+Architecture: all
+Version: 38+git20241230193924.2eca382.unofficial.berb
+Priority: optional
+Section: kernel
+Maintainer: Berbascum  <berbascum@ticv.cat>
+Installed-Size: 58
+Filename: pool/trixie/main/binary-all/linux-packaging-snippets_38+git20241230193924.2eca382.unofficial.berb_all.deb
+Size: 12992
+MD5sum: 578a54dd47740e0292aaee03702128b2
+SHA1: d188ae89113d96d2f6b5474dc5ad6f288ed242ad
+SHA256: 430c1c8383727f223955c80476d79663d24290fef4d3cdeada4fb8dda3778b5a
+SHA512: d98215571b7b80d1a320e14445ebffe807335b270d89ad30977b33d57b2a5e611d605a817efc0ace2945eb6aaeef0bdef6c2945368194a9ab807ec9dc4a81ac5
+Description: Linux kernel packaging snippets for Droidian
+ This package contains various snippets for packaging Droidian
+ kernels.
+
 Package: mkbootimg
 Architecture: all
-Version: 20.0-2+git20241225113203.a4aea0d.droidian.unofficial.berb
+Version: 2:20.0-3+git20241225113203.a4aea0d.unofficial.berb
 Priority: optional
 Section: devel
 Maintainer: berbascum <berbascum@ticv.cat>
 Installed-Size: 164
 Depends: python3
-Filename: pool/trixie/main/binary-all/mkbootimg_20.0-2+git20241225113203.a4aea0d.droidian.unofficial.berb_all.deb
-Size: 38000
-MD5sum: 7a23d43b576985dc681a70757be6b6ee
-SHA1: baefa705d85b58d89e965e3d6580cd17b25bb103
-SHA256: 40b4d6988191401317c88afbaf417faf6c780e66c2a550a4147d3225c4259b76
-SHA512: bec31e2d64cb7da7de76332c2fb394bc3da6ec17faf9987a22e98ab00ed76134ea52eebee9ad88b3ee5950f686ab3ee0d474195f4ad7cee0c093782b445640bd
+Filename: pool/trixie/main/binary-all/mkbootimg_20.0-3+git20241225113203.a4aea0d.unofficial.berb_all.deb
+Size: 37996
+MD5sum: 39a1d7402401f42349d36a79a79de811
+SHA1: 8c872e5d71a9a3a0e5ba4afd4ad0b94e4272ad72
+SHA256: 63a4ebc061e81dc82de75d1f343183da6672b536702f4c4391b77b080b6b9b01
+SHA512: 9606c722e06406cd8e78fca89f1a935824cb51c0e2a4c2e14dd62a9aa29c7239fc376985e832cca13792ebf9e8d1c901311902609c22387aa7f29e22cf812b3a
 Homepage: https://github.com/LineageOS/android_system_tools_mkbootimg
 Description: Creates Android boot images that includes kernel image and ramdisk,
              in a special format which can be used with fastboot.
 
+Package: releng-tools
+Architecture: all
+Version: 64+git20241230204205.ee37935.unofficial.berb
+Priority: optional
+Section: misc
+Maintainer: Berbascum <berbascum@ticv.cat>
+Installed-Size: 57
+Depends: python3:any, python3-git, git, git-lfs, findutils, equivs, devscripts
+Filename: pool/trixie/main/binary-all/releng-tools_64+git20241230204205.ee37935.unofficial.berb_all.deb
+Size: 14880
+MD5sum: 08b05b7e0c315b72d47c4ff244dfd66a
+SHA1: 9f566387dc865a67780e7746f4fab59c6fee0e40
+SHA256: ea51af55238cb5d9d0710268ee7d0dadfed0128b5f6b7fed9dfe8b46dccfcece
+SHA512: 4c1f3fda9afb3cd9eb3ce4f472890a52a1fd182a6a9ccc0354846d6883053047095d96bc183911673b2a1139c7931ce10356ff4741738ea5181b58b83dce5c54
+Description: Release engineering tools for droidian
+ This package contains various tools related to droidian's
+ release engineering processes.
+
 Package: mkdtboimg
 Architecture: all
-Version: 13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb
+Version: 13.0.0+r18-1+git20241225103335.f4e0fb9.unofficial.berb
 Priority: optional
 Section: utils
 Source: android-platform-system-libufdt
 Maintainer: Berbascum <berbascum@ticv.cat>
 Installed-Size: 66
 Depends: python3:any, python3 (>= 3.8)
-Filename: pool/trixie/main/binary-all/mkdtboimg_13.0.0+r18-2+git20241225103836.49a9874.droidian.unofficial.berb_all.deb
-Size: 16716
-MD5sum: f3943a3b1251d18af6251f6449d026d9
-SHA1: 1ce7bda193f18cbb2e3f333830f3c4b773b298b2
-SHA256: eb31ee9bb45bd61cb1ab93f66ed1d4f39c030a6edafcfff0072f474b2affafcd
-SHA512: e0d179deaaf085b22ac6cd6302b9e6aa469388797c80e8aecb1fb1035b3e3eee0371b0bce12c3d527fdc259bee676582334deffa7edf6cd7f8f91cbe791306d6
+Filename: pool/trixie/main/binary-amd64/mkdtboimg_13.0.0+r18-1+git20241225103335.f4e0fb9.unofficial.berb_all.deb
+Size: 16728
+MD5sum: 33050183b510215a93197de5cc2b3ae7
+SHA1: 46a101598be771617b70564fe9d111a1cbca2eca
+SHA256: c6a57a0a8c3bc2bb6d8a15fd625f85fbce0e43aadb27762715710c3d3f1b0f7a
+SHA512: 008f37311ae4e55ffdbeef5df4c1a403136e5b0cd53423e07ec66edc280470eb90c8bcd0fc8d27630b2c200474d5548aa33ff765f1af451a09a20aca1c79655c
+Homepage: https://android.googlesource.com/platform/system/libufdt
+Description: Tool for packing multiple DTB/DTBO files into a single image
+ This package contains mkdtboimg, a tool for packing multiple
+ DTB/DTBO files into a single image.
+X-Droidian-Vcs-Revision: f4e0fb92571e1141533557c65b40f7a8b72050b9
+X-Droidian-Vcs-Url: git@github.com:droidian-berb/android-platform-system-libufdt
+
+Package: mkdtboimg
+Architecture: all
+Version: 13.0.0+r18-1+git20241225103335.f4e0fb9.unofficial.berb
+Priority: optional
+Section: utils
+Source: android-platform-system-libufdt
+Maintainer: Berbascum <berbascum@ticv.cat>
+Installed-Size: 66
+Depends: python3:any, python3 (>= 3.8)
+Filename: pool/trixie/main/binary-arm64/mkdtboimg_13.0.0+r18-1+git20241225103335.f4e0fb9.unofficial.berb_all.deb
+Size: 16668
+MD5sum: e7a38013e7724227b33f4b7353d4972e
+SHA1: 8707d887df4e2f44ed6035256c0e275ae2a8ea35
+SHA256: 3cfda4e497a8ae83a776b1688500b8bd0bd5df9f9e0a0a66c4ad4c582c111b0d
+SHA512: bf7ab9fbcd849a5bea845992d85e4d542439b1391cc0ebdb89fd32931ccc3ec87671b8b9410f8a58267f81a4bfeab2951ed42e9a47517a61460c36b151b4a21f
 Homepage: https://android.googlesource.com/platform/system/libufdt
 Description: Tool for packing multiple DTB/DTBO files into a single image
  This package contains mkdtboimg, a tool for packing multiple
