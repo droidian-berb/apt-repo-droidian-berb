@@ -49,23 +49,6 @@ SHA256: c56a8441b2ed0d55ab98aab012d45bf117a740cdf07c732aa8d444d85cb83ba4
 SHA512: cb4ac1deeabf23df9df6b86186a9f4ff897071481d043a421c7d308214317a54f815bdafa83b33d2c3b7e7c01c9efbfac9c1381e94ae55d5c00b6dff558d1404
 Description: APT keyrings for droidian-berb github apt repo
 
-Package: linux-packaging-snippets
-Architecture: all
-Version: 38+git20241230193924.2eca382.unofficial.berb
-Priority: optional
-Section: kernel
-Maintainer: Berbascum  <berbascum@ticv.cat>
-Installed-Size: 58
-Filename: pool/trixie/main/binary-all/linux-packaging-snippets_38+git20241230193924.2eca382.unofficial.berb_all.deb
-Size: 12992
-MD5sum: 578a54dd47740e0292aaee03702128b2
-SHA1: d188ae89113d96d2f6b5474dc5ad6f288ed242ad
-SHA256: 430c1c8383727f223955c80476d79663d24290fef4d3cdeada4fb8dda3778b5a
-SHA512: d98215571b7b80d1a320e14445ebffe807335b270d89ad30977b33d57b2a5e611d605a817efc0ace2945eb6aaeef0bdef6c2945368194a9ab807ec9dc4a81ac5
-Description: Linux kernel packaging snippets for Droidian
- This package contains various snippets for packaging Droidian
- kernels.
-
 Package: mkbootimg
 Architecture: all
 Version: 2:20.0-3+git20241225113203.a4aea0d.unofficial.berb
