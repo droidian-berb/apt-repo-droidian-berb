@@ -88,21 +88,22 @@ Description: Creates Android boot images that includes kernel image and ramdisk,
 
 Package: releng-tools
 Architecture: all
-Version: 2+git20250102113253.652b307.unofficial.berb.sid
+Version: 4+git20250103174613.7ca405c.unofficial.berb.sid
 Priority: optional
 Section: misc
 Maintainer: Berbascum <berbascum@ticv.cat>
 Installed-Size: 56
-Depends: python3:any, python3-git, git, git-lfs, findutils, equivs, devscripts
-Filename: pool/trixie/main/binary-all/releng-tools_2+git20250102113253.652b307.unofficial.berb.sid_all.deb
-Size: 14756
-MD5sum: 5938d19f50eb5bb31cd371eef63aee3a
-SHA1: ced97adcbedb375d68978dba25c071f3627ce1ea
-SHA256: 866b53adc6eb2612f4fdd51465b3aaf17e801c088dbf4172eecebf8fb5e2cb63
-SHA512: a63c6adb510a47ce0365c3f18c22d889a426bffc55dd0b1031addd55ebe22d5f9ee04ba58921fa3730733dfa6b26b5dd9f3933fd9e02e3bd169783c59e476e6d
+Depends: python3:any, python3-git, git, git-lfs, findutils, equivs
+Recommends: devscripts
+Filename: pool/trixie/main/binary-all/releng-tools_4+git20250103174613.7ca405c.unofficial.berb.sid_all.deb
+Size: 14800
+MD5sum: b557b706a4df185742f5882417dc8be5
+SHA1: 48c485ba79a8236a422d8c5747e26af5ba0009ba
+SHA256: 6c953399430f918b75575b39d1ffc4f9d814be587cb6a2f485e59aa68073cd6c
+SHA512: 5f021add116c2911ba5f984dc37fe87869752e37e19af9c2e35039a8d92bc7929ef0df480d840ca50a8320ecff7936a0e8dd1a94a6afc7191e0b61f50008fdce
 Description: Release engineering tools for droidian
  This package contains various tools related to droidian's
  release engineering processes.
-X-Droidian-Vcs-Revision: 652b30761ea7f55792410685c17f11cb6a501dd4
+X-Droidian-Vcs-Revision: 7ca405cf8849c6c255179d7091bee863dffb3ffc
 X-Droidian-Vcs-Url: git@github.com:droidian-berb/releng-tools
 
