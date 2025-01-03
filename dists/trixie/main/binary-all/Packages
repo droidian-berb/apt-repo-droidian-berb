@@ -49,6 +49,25 @@ SHA256: c56a8441b2ed0d55ab98aab012d45bf117a740cdf07c732aa8d444d85cb83ba4
 SHA512: cb4ac1deeabf23df9df6b86186a9f4ff897071481d043a421c7d308214317a54f815bdafa83b33d2c3b7e7c01c9efbfac9c1381e94ae55d5c00b6dff558d1404
 Description: APT keyrings for droidian-berb github apt repo
 
+Package: linux-packaging-snippets
+Architecture: all
+Version: 1+git20250102024528.f579ca8.unofficial.berb.sid
+Priority: optional
+Section: kernel
+Maintainer: Eugenio Paolantonio (g7) <eugenio@droidian.org>
+Installed-Size: 59
+Filename: pool/trixie/main/binary-all/linux-packaging-snippets_1+git20250102024528.f579ca8.unofficial.berb.sid_all.deb
+Size: 13180
+MD5sum: 42d0877af8b03599e764f125d77d3985
+SHA1: 30512eaac58fba2dc18e08c0585e02d5dcbf01e2
+SHA256: 4bf336f26b71fe04c2f57bd1febd5d17a82794dece6d84a36e52690aca5ec8ef
+SHA512: e2b839f166bf75680a4a7b1627104bde424e824fb0a2396487b45b2c353e431686f8b2651f86bae7f4c99a8cca2a43d1b28634a0db4a7cb390bcc7226b7cbbe5
+Description: Linux kernel packaging snippets for Droidian
+ This package contains various snippets for packaging Droidian
+ kernels.
+X-Droidian-Vcs-Revision: f579ca810a7f90c38918a92bc26765b2592f0e8f
+X-Droidian-Vcs-Url: git@github.com:droidian-berb/linux-packaging-snippets
+
 Package: mkbootimg
 Architecture: all
 Version: 2:20.0-3+git20241225113203.a4aea0d.unofficial.berb
@@ -69,19 +88,21 @@ Description: Creates Android boot images that includes kernel image and ramdisk,
 
 Package: releng-tools
 Architecture: all
-Version: 64+git20241230204205.ee37935.unofficial.berb
+Version: 2+git20250102113253.652b307.unofficial.berb.sid
 Priority: optional
 Section: misc
 Maintainer: Berbascum <berbascum@ticv.cat>
-Installed-Size: 57
+Installed-Size: 56
 Depends: python3:any, python3-git, git, git-lfs, findutils, equivs, devscripts
-Filename: pool/trixie/main/binary-all/releng-tools_64+git20241230204205.ee37935.unofficial.berb_all.deb
-Size: 14880
-MD5sum: 08b05b7e0c315b72d47c4ff244dfd66a
-SHA1: 9f566387dc865a67780e7746f4fab59c6fee0e40
-SHA256: ea51af55238cb5d9d0710268ee7d0dadfed0128b5f6b7fed9dfe8b46dccfcece
-SHA512: 4c1f3fda9afb3cd9eb3ce4f472890a52a1fd182a6a9ccc0354846d6883053047095d96bc183911673b2a1139c7931ce10356ff4741738ea5181b58b83dce5c54
+Filename: pool/trixie/main/binary-all/releng-tools_2+git20250102113253.652b307.unofficial.berb.sid_all.deb
+Size: 14756
+MD5sum: 5938d19f50eb5bb31cd371eef63aee3a
+SHA1: ced97adcbedb375d68978dba25c071f3627ce1ea
+SHA256: 866b53adc6eb2612f4fdd51465b3aaf17e801c088dbf4172eecebf8fb5e2cb63
+SHA512: a63c6adb510a47ce0365c3f18c22d889a426bffc55dd0b1031addd55ebe22d5f9ee04ba58921fa3730733dfa6b26b5dd9f3933fd9e02e3bd169783c59e476e6d
 Description: Release engineering tools for droidian
  This package contains various tools related to droidian's
  release engineering processes.
+X-Droidian-Vcs-Revision: 652b30761ea7f55792410685c17f11cb6a501dd4
+X-Droidian-Vcs-Url: git@github.com:droidian-berb/releng-tools
 
