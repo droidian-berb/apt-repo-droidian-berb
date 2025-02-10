@@ -1,7 +1,7 @@
 Architectures: all arm64 amd64
 Codename: bookworm
 Components: main
-Date: Sun, 09 Feb 2025 18:43:14 +0000
+Date: Mon, 10 Feb 2025 22:54:04 +0000
 Description: droidian-berb apt repo for release bookworm
 Label: droidian-berb
 Origin: droidian-berb
@@ -13,7 +13,7 @@ MD5Sum:
  da9b755d71da551b14f6f41b23ef66f3            16331 Contents-amd64.gz
  af77790f6c87dc9a0b51b2150488b38d            25552 Contents-arm64.bz2
  d4c9f38d0095ee99fb8d09a53e0bf14f            31254 Contents-arm64.gz
- a76d4b3d663797defb123a2b02df1123              221 Release
+ ced1e34def6c4a16b817c76135a782c2              221 Release
  f3c26f6ec3915208d7633b91a28fc5db              527 main/Contents-all.bz2
  77f5529c3dd0efa2b94c0f8ff0bf0bdb              445 main/Contents-all.gz
  fab9873afc77957cffbe83d735e0b610            13529 main/Contents-amd64.bz2
@@ -36,7 +36,7 @@ SHA1:
  15568b2e0ee4f289c0019370094ecdc6476fd26a            16331 Contents-amd64.gz
  0526d927efd886c07799678d47cf19cda7e6bece            25552 Contents-arm64.bz2
  ff838da7309cfcd48a1e25921855e6899d061981            31254 Contents-arm64.gz
- ed4cef17bef3e243b36a338208fe81b6e97651da              221 Release
+ 7fdad1aca7591a768f7244a779a97abbe3acbefe              221 Release
  11411ccf17b6df1bbf988494b864deee6d1f53fe              527 main/Contents-all.bz2
  2d33fef15dd96b3b022f82133d289566aa08ecd2              445 main/Contents-all.gz
  a2fea0fd18bfee994e1b9b383c2a05b096672082            13529 main/Contents-amd64.bz2
@@ -59,7 +59,7 @@ SHA256:
  ce527cd32c95822f47372a0598ccd41fef04f8442f2c57cfe15a853e79fadda2            16331 Contents-amd64.gz
  3e014f8ee2ca7a2e3d989b5912cdefffb223816ac41652e8c00c5a73201c6d05            25552 Contents-arm64.bz2
  ca580f43e05260815c1914897ac8efb1e7129cb7651e83e845db242bfd1e1929            31254 Contents-arm64.gz
- 5f1e2e44085885365e2037073415492def79910f4478725abfcda3cb08d386ae              221 Release
+ 6d3ddab3480b410b383ba5c7ca856cef7b8baeff7437b4ac731b48540ed49296              221 Release
  64ea6d2362280300118bc6f94379af703cfaa0448afa885773ec2c45f18a278e              527 main/Contents-all.bz2
  8254c6206ab0230f07ce231591bd6653a9cf33f191bd4635f0c4f838ef64c7b9              445 main/Contents-all.gz
  f76084b2207deaa462b3967fb63b20070886686c0a98eb85649cdee029d7dbfd            13529 main/Contents-amd64.bz2
@@ -82,7 +82,7 @@ SHA512:
  f0a173d3a063bd785eb671503d29f44c0c8a22f0facdb7398317393216a09cc0673a4dba048daa9eed67ba2f5fc81e3e7bd8bbb7d933a5c931a5644d906ad6a5            16331 Contents-amd64.gz
  f5de0401f648703fbbdee2179784ecbfd06bd5f5b6395e083b8f0ad22c26168f99e663d828d67a3db2f3bb550e9a3e3f65265b95a2743edf1ce57c07c066d536            25552 Contents-arm64.bz2
  c8be7c1eaaf7628b9caf33f4562dc77483c6d515d7b1fc93ea901825ca6bb91a0ae63ad3b4f76ce47ff375a3e8e60e4e9872cbedd0db1a71db5bfef5d4378b44            31254 Contents-arm64.gz
- b17ad2677c7138d4deb47a954bfaa96b975aa3aa535ff1b3bf1565e41fbae3b2b77fa8cac9d0d6558a49a366b0265f127205eefe40523aec297c2a746e82206d              221 Release
+ c3be37b1075b0414f4c5f6ea2ab5c3cc7c81a44e9149e4ce0b12cd5752b64da60e0d8921709c62bed6265048b7277bd88d3902cfe59b59a3d916b3d2ab4ace3a              221 Release
  83404b6749679042a02dd3558e06dfec43fb08f8f91c6491e570de4f31b65ddc9961c23e1736acb21cbc81a0cbcd04c09bf7aa8b426bf71bfc8f697c486be312              527 main/Contents-all.bz2
  7d18498cf182346af7456993b819a9cb1166077c6aa11dd082f2a1e65787e01cf095b1c4944b1bcee24fedaf691713aa09d144845c1b9f81db3acf0834ae3a35              445 main/Contents-all.gz
  00efcbfdcdfebe9f1e73aaa7a0a0f67f5ccc87337f77ee6585ca30ed4debaf8a790d26851b37a41dfc43bc93315efcc82d03b341afd00ca16cf28765d90db440            13529 main/Contents-amd64.bz2
